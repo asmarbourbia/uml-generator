@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.required {
+    color: red;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.relation, .attribute, .method {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+}
+
+.relation label, .attribute label, .method label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.relation input, .relation select, .attribute input, .method input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.relation:not(:last-child), .attribute:not(:last-child), .method:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+#convertDiagram {
+    display: block;
+    margin: 20px auto;
+}
+
+#packageName {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.relation input[name="relationName"], .attribute input[name="attrInit"], .method input[name="methodParams"] {
+    background-color: #eef6fc;
+    border: 1px solid #aacbe4;
+}
+
+.relation, .attribute, .method {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* Styles pour le conteneur du diagramme SVG */
+#diagramContainer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#diagramContainer h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+#diagramContainer {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Conteneur avec scroll horizontal */
+.scroll-wrapper {
+    width: 100%;
+    overflow-x: auto; /* Permet le défilement horizontal si nécessaire */
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#svgDiagram {
+    display: block;
+    width: 100%;
+    max-width: 1200px; /* Taille maximale du diagramme */
+    height: 500px; /* Hauteur fixe pour éviter que le contenu ne dépasse */
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    overflow: auto; /* Active le scroll si nécessaire */
+    border-radius: 5px;
+    cursor: grab; /* Curseur par défaut pour le drag */
+    transform-origin: 0 0; /* Assure un zoom depuis l'origine */
+    transition: transform 0.1s ease-out; /* Animation pour le zoom */
+}
+
+/* Ajout d'un conteneur avec scroll horizontal */
+.scroll-wrapper {
+    width: 100%;
+    overflow-x: auto; /* Ajoute un scroll horizontal si nécessaire */
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+/* Bouton de téléchargement */
+#downloadDiagram {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: #17a2b8;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#downloadDiagram:hover {
+    background-color: #02dfe8;
+}
+
+/* Amélioration des boutons globaux */
+button {
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Ajout d'une animation pour les nouvelles classes ajoutées dynamiquement */
+.class-container {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+#sequenceContainer {
+    margin-top: 30px;
+    text-align: center;
+}

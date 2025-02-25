@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="header.css">
+
+
+    <title>Formulaire UML</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+
+<div class="container">
+    <h1>Formulaire UML</h1>
+
+    <div id="classContainer">
+        <h2>Diagramme de Classes</h2>
+        <div id="classes"></div>
+        <button id="addClass" class="btn">Ajouter une Classe</button>
+    </div>
+
+    <button id="convertDiagram" class="btn-primary">Convertir en Diagramme UML</button>
+</div>
+<label for="exportFormat">Format d'exportation :</label>
+<select id="exportFormat">
+    <option value="svg">SVG</option>
+    <option value="png">PNG</option>
+</select>
+<div id="diagramContainer">
+    <h2>Diagramme UML</h2>
+    <div id="svgDiagram"></div>
+</div>
+
+<button id="downloadClassXML" class="btn btn-primary">Télécharger le fichier XML</button>
+
+<a id="downloadDiagram" class="btn btn-primary">Télécharger le diagramme</a>
+
+<script src="./js/app.js"></script>
+</body>
+</html>

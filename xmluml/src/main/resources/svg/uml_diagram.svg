@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1600"
+     height="1600"
+     font-family="Arial"
+     font-size="14">
+   <defs>
+      <marker id="arrowhead"
+              markerWidth="10"
+              markerHeight="7"
+              refX="10"
+              refY="3.5"
+              orient="auto">
+         <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+      </marker>
+      <marker id="inheritanceArrow"
+              markerWidth="10"
+              markerHeight="10"
+              refX="10"
+              refY="5"
+              orient="auto">
+         <polygon points="0 0, 10 5, 0 10" fill="none" stroke="black"/>
+      </marker>
+      <marker id="diamond"
+              markerWidth="10"
+              markerHeight="10"
+              refX="10"
+              refY="5"
+              orient="auto">
+         <polygon points="0 5, 5 0, 10 5, 5 10, 0 5" fill="none" stroke="black"/>
+      </marker>
+      <marker id="filledDiamond"
+              markerWidth="10"
+              markerHeight="10"
+              refX="10"
+              refY="5"
+              orient="auto">
+         <polygon points="0 5, 5 0, 10 5, 5 10, 0 5" fill="black"/>
+      </marker>
+      <marker id="realizationArrow"
+              markerWidth="10"
+              markerHeight="7"
+              refX="10"
+              refY="3.5"
+              orient="auto">
+         <polygon points="0 0, 10 3.5, 0 7" fill="white" stroke="black"/>
+      </marker>
+      <marker id="dependencyArrow"
+              markerWidth="10"
+              markerHeight="7"
+              refX="10"
+              refY="3.5"
+              orient="auto">
+         <polygon points="0 0, 10 3.5, 0 7" fill="none" stroke="black"/>
+      </marker>
+      <marker id="noArrow"
+              markerWidth="10"
+              markerHeight="7"
+              refX="10"
+              refY="3.5"
+              orient="auto">
+         <polygon points="" fill="none" stroke="none"/>
+      </marker>
+   </defs>
+   <rect x="50"
+         y="50"
+         width="250"
+         height="150"
+         fill="lightblue"
+         stroke="black"/>
+   <text x="175" y="70" text-anchor="middle">personne</text>
+   <line x1="50" y1="80" x2="300" y2="80" stroke="black"/>
+   <line x1="50" y1="130" x2="300" y2="130" stroke="black"/>
+</svg>

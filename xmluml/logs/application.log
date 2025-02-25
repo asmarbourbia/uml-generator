@@ -1,0 +1,197 @@
+2025-02-13T15:36:51.756+01:00  INFO 20588 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : Starting XmlumlApplication using Java 23.0.1 with PID 20588 (C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\target\classes started by asmae in C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml)
+2025-02-13T15:36:51.767+01:00  INFO 20588 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-13T15:36:51.862+01:00  INFO 20588 --- [xmluml] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-13T15:36:51.862+01:00  INFO 20588 --- [xmluml] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-13T15:36:53.050+01:00  INFO 20588 --- [xmluml] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-13T15:36:53.075+01:00  INFO 20588 --- [xmluml] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-02-13T15:36:53.803+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2025-02-13T15:36:53.822+01:00  INFO 20588 --- [xmluml] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-13T15:36:53.823+01:00  INFO 20588 --- [xmluml] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-13T15:36:53.880+01:00  INFO 20588 --- [xmluml] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-13T15:36:53.880+01:00  INFO 20588 --- [xmluml] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2017 ms
+2025-02-13T15:36:54.086+01:00  INFO 20588 --- [xmluml] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-13T15:36:54.169+01:00  INFO 20588 --- [xmluml] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-02-13T15:36:54.206+01:00  INFO 20588 --- [xmluml] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-13T15:36:54.588+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-13T15:36:54.622+01:00  INFO 20588 --- [xmluml] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-13T15:36:54.879+01:00  INFO 20588 --- [xmluml] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-02-13T15:36:54.881+01:00  INFO 20588 --- [xmluml] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-13T15:36:54.964+01:00  INFO 20588 --- [xmluml] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-13T15:36:55.387+01:00  INFO 20588 --- [xmluml] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-13T15:36:55.393+01:00  INFO 20588 --- [xmluml] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-13T15:36:55.502+01:00  WARN 20588 --- [xmluml] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-13T15:36:55.696+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-13T15:36:57.648+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-02-13T15:36:57.743+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-13T15:36:57.792+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2025-02-13T15:36:57.800+01:00  INFO 20588 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : Started XmlumlApplication in 6.602 seconds (process running for 11.967)
+2025-02-13T15:37:17.683+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-13T15:37:17.683+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-13T15:37:17.686+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-13T15:37:18.029+01:00  WARN 20588 --- [xmluml] [http-nio-8084-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource header.css.]
+2025-02-13T15:37:19.673+01:00  WARN 20588 --- [xmluml] [http-nio-8084-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-13T15:42:07.738+01:00  WARN 20588 --- [xmluml] [http-nio-8084-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource header.css.]
+2025-02-13T15:42:19.298+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-3] c.p.xmluml.controller.UMLController      : Requête reçue : Classes - [UMLClass(name=a, type=concrete, packageName=null, attributes=[], methods=[], relations=null)], Relations - []
+2025-02-13T15:42:19.303+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-3] com.project.xmluml.Service.UMLService    : Classes reçues : [UMLClass(name=a, type=concrete, packageName=null, attributes=[], methods=[], relations=null)]
+2025-02-13T15:42:19.303+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-3] com.project.xmluml.Service.UMLService    : Relations reçues : []
+2025-02-13T15:42:19.304+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-3] com.project.xmluml.Service.UMLService    : Début de la conversion des données en fichier XML.
+2025-02-13T15:42:19.304+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-3] com.project.xmluml.Service.UMLService    : Fichier XML sera créé à l'emplacement : C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\src\main\resources\xml\uml_classes.xml
+2025-02-13T15:42:19.310+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-3] com.project.xmluml.Service.UMLService    : Fichier XML généré avec succès : C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\src\main\resources\xml\uml_classes.xml
+2025-02-13T15:42:19.311+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-3] com.project.xmluml.Service.UMLService    : Début de la validation XML.
+2025-02-13T15:42:19.593+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-3] com.project.xmluml.Service.UMLService    : Validation XML réussie.
+2025-02-13T15:42:20.649+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-3] com.project.xmluml.Service.UMLService    : Diagramme SVG généré avec succès : C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\src\main\resources\svg\uml_diagram.svg
+2025-02-13T15:46:20.738+01:00  INFO 20588 --- [xmluml] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-13T15:46:20.749+01:00  INFO 20588 --- [xmluml] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-13T15:46:20.761+01:00  INFO 20588 --- [xmluml] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-13T15:46:20.775+01:00  INFO 20588 --- [xmluml] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-13T15:46:20.796+01:00  WARN 20588 --- [xmluml] [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-02-13T15:46:20.797+01:00  INFO 20588 --- [xmluml] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-13T15:46:20.799+01:00  INFO 20588 --- [xmluml] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-13T15:46:20.938+01:00  INFO 20588 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : Starting XmlumlApplication using Java 23.0.1 with PID 20588 (C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\target\classes started by asmae in C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml)
+2025-02-13T15:46:20.938+01:00  INFO 20588 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-13T15:46:21.390+01:00  INFO 20588 --- [xmluml] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-13T15:46:21.395+01:00  INFO 20588 --- [xmluml] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-02-13T15:46:21.593+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2025-02-13T15:46:21.596+01:00  INFO 20588 --- [xmluml] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-13T15:46:21.597+01:00  INFO 20588 --- [xmluml] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-13T15:46:21.623+01:00  INFO 20588 --- [xmluml] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-13T15:46:21.624+01:00  INFO 20588 --- [xmluml] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 681 ms
+2025-02-13T15:46:21.668+01:00  INFO 20588 --- [xmluml] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-13T15:46:21.671+01:00  INFO 20588 --- [xmluml] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-13T15:46:21.687+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-13T15:46:21.689+01:00  INFO 20588 --- [xmluml] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-13T15:46:21.696+01:00  INFO 20588 --- [xmluml] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2025-02-13T15:46:21.697+01:00  INFO 20588 --- [xmluml] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-13T15:46:21.699+01:00  INFO 20588 --- [xmluml] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-13T15:46:21.722+01:00  INFO 20588 --- [xmluml] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-13T15:46:21.723+01:00  INFO 20588 --- [xmluml] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-13T15:46:21.756+01:00  WARN 20588 --- [xmluml] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-13T15:46:21.764+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-13T15:46:21.896+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-02-13T15:46:21.918+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-13T15:46:21.933+01:00  INFO 20588 --- [xmluml] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2025-02-13T15:46:21.937+01:00  INFO 20588 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : Started XmlumlApplication in 1.058 seconds (process running for 576.103)
+2025-02-13T15:46:21.939+01:00  INFO 20588 --- [xmluml] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-13T15:49:28.560+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-13T15:49:28.561+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-13T15:49:28.563+01:00  INFO 20588 --- [xmluml] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-13T15:49:28.617+01:00  WARN 20588 --- [xmluml] [http-nio-8084-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource header.css.]
+2025-02-13T15:49:28.650+01:00  WARN 20588 --- [xmluml] [http-nio-8084-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-13T15:51:24.769+01:00  WARN 20588 --- [xmluml] [http-nio-8084-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource header.css.]
+2025-02-13T15:51:24.802+01:00  WARN 20588 --- [xmluml] [http-nio-8084-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-13T16:23:24.370+01:00  WARN 20588 --- [xmluml] [http-nio-8084-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-13T16:33:17.822+01:00  INFO 20588 --- [xmluml] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-13T16:33:17.853+01:00  INFO 20588 --- [xmluml] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-13T16:33:17.879+01:00  INFO 20588 --- [xmluml] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-13T16:33:18.005+01:00  WARN 20588 --- [xmluml] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-02-13T16:33:18.007+01:00  INFO 20588 --- [xmluml] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-02-13T16:33:18.021+01:00  INFO 20588 --- [xmluml] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-02-13T16:33:24.809+01:00  INFO 4748 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : Starting XmlumlApplication using Java 23.0.1 with PID 4748 (C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\target\classes started by asmae in C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml)
+2025-02-13T16:33:24.812+01:00  INFO 4748 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-13T16:33:24.908+01:00  INFO 4748 --- [xmluml] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-13T16:33:24.909+01:00  INFO 4748 --- [xmluml] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-13T16:33:25.979+01:00  INFO 4748 --- [xmluml] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-13T16:33:26.017+01:00  INFO 4748 --- [xmluml] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2025-02-13T16:33:26.844+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2025-02-13T16:33:26.862+01:00  INFO 4748 --- [xmluml] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-13T16:33:26.862+01:00  INFO 4748 --- [xmluml] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-13T16:33:26.919+01:00  INFO 4748 --- [xmluml] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-13T16:33:26.920+01:00  INFO 4748 --- [xmluml] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2010 ms
+2025-02-13T16:33:27.107+01:00  INFO 4748 --- [xmluml] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-13T16:33:27.189+01:00  INFO 4748 --- [xmluml] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-02-13T16:33:27.230+01:00  INFO 4748 --- [xmluml] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-13T16:33:27.654+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-13T16:33:27.687+01:00  INFO 4748 --- [xmluml] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-13T16:33:27.932+01:00  INFO 4748 --- [xmluml] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-02-13T16:33:27.935+01:00  INFO 4748 --- [xmluml] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-13T16:33:28.003+01:00  INFO 4748 --- [xmluml] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-13T16:33:28.450+01:00  INFO 4748 --- [xmluml] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-13T16:33:28.455+01:00  INFO 4748 --- [xmluml] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-13T16:33:28.550+01:00  WARN 4748 --- [xmluml] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-13T16:33:28.594+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-13T16:33:28.932+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-02-13T16:33:29.011+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-13T16:33:29.058+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2025-02-13T16:33:29.066+01:00  INFO 4748 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : Started XmlumlApplication in 5.04 seconds (process running for 6.317)
+2025-02-13T16:33:35.142+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-13T16:33:35.142+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-13T16:33:35.145+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-13T16:33:35.544+01:00  WARN 4748 --- [xmluml] [http-nio-8084-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource header.css.]
+2025-02-13T16:33:35.670+01:00  WARN 4748 --- [xmluml] [http-nio-8084-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-13T16:33:53.579+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-4] c.p.xmluml.controller.UMLController      : Requête reçue : Classes - [UMLClass(name=personne, type=concrete, packageName=null, attributes=[], methods=[], relations=null)], Relations - []
+2025-02-13T16:33:53.579+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-4] com.project.xmluml.Service.UMLService    : Classes reçues : [UMLClass(name=personne, type=concrete, packageName=null, attributes=[], methods=[], relations=null)]
+2025-02-13T16:33:53.579+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-4] com.project.xmluml.Service.UMLService    : Relations reçues : []
+2025-02-13T16:33:53.579+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-4] com.project.xmluml.Service.UMLService    : Début de la conversion des données en fichier XML.
+2025-02-13T16:33:53.579+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-4] com.project.xmluml.Service.UMLService    : Fichier XML sera créé à l'emplacement : C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\src\main\resources\xml\uml_classes.xml
+2025-02-13T16:33:53.579+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-4] com.project.xmluml.Service.UMLService    : Fichier XML généré avec succès : C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\src\main\resources\xml\uml_classes.xml
+2025-02-13T16:33:53.579+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-4] com.project.xmluml.Service.UMLService    : Début de la validation XML.
+2025-02-13T16:33:53.775+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-4] com.project.xmluml.Service.UMLService    : Validation XML réussie.
+2025-02-13T16:33:55.387+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-4] com.project.xmluml.Service.UMLService    : Diagramme SVG généré avec succès : C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\src\main\resources\svg\uml_diagram.svg
+2025-02-13T16:38:30.880+01:00  INFO 4748 --- [xmluml] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-02-13T16:38:30.880+01:00  INFO 4748 --- [xmluml] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-13T16:38:30.895+01:00  INFO 4748 --- [xmluml] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-13T16:38:30.904+01:00  INFO 4748 --- [xmluml] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-13T16:38:30.927+01:00  WARN 4748 --- [xmluml] [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-02-13T16:38:30.927+01:00  INFO 4748 --- [xmluml] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-13T16:38:30.927+01:00  INFO 4748 --- [xmluml] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-13T16:38:31.101+01:00  INFO 4748 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : Starting XmlumlApplication using Java 23.0.1 with PID 4748 (C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml\target\classes started by asmae in C:\Users\asmae\Desktop\les version de projet xml\verion avec plusier relation0avvtous\xmluml)
+2025-02-13T16:38:31.102+01:00  INFO 4748 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-13T16:38:31.364+01:00  INFO 4748 --- [xmluml] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-13T16:38:31.381+01:00  INFO 4748 --- [xmluml] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-02-13T16:38:31.553+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2025-02-13T16:38:31.566+01:00  INFO 4748 --- [xmluml] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-13T16:38:31.566+01:00  INFO 4748 --- [xmluml] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-13T16:38:31.605+01:00  INFO 4748 --- [xmluml] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-13T16:38:31.605+01:00  INFO 4748 --- [xmluml] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 497 ms
+2025-02-13T16:38:31.660+01:00  INFO 4748 --- [xmluml] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-13T16:38:31.663+01:00  INFO 4748 --- [xmluml] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-13T16:38:31.684+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-13T16:38:31.685+01:00  INFO 4748 --- [xmluml] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-13T16:38:31.685+01:00  INFO 4748 --- [xmluml] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2025-02-13T16:38:31.685+01:00  INFO 4748 --- [xmluml] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-13T16:38:31.685+01:00  INFO 4748 --- [xmluml] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-13T16:38:31.716+01:00  INFO 4748 --- [xmluml] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-13T16:38:31.718+01:00  INFO 4748 --- [xmluml] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-13T16:38:31.765+01:00  WARN 4748 --- [xmluml] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-13T16:38:31.781+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-13T16:38:31.969+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-02-13T16:38:31.984+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-13T16:38:32.006+01:00  INFO 4748 --- [xmluml] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2025-02-13T16:38:32.006+01:00  INFO 4748 --- [xmluml] [restartedMain] com.project.xmluml.XmlumlApplication     : Started XmlumlApplication in 0.975 seconds (process running for 309.262)
+2025-02-13T16:38:32.006+01:00  INFO 4748 --- [xmluml] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-13T16:57:16.647+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-13T16:57:16.682+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-13T16:57:16.765+01:00  INFO 4748 --- [xmluml] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 83 ms
+2025-02-13T16:57:17.079+01:00  WARN 4748 --- [xmluml] [http-nio-8084-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-13T17:33:05.901+01:00  WARN 4748 --- [xmluml] [http-nio-8084-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]

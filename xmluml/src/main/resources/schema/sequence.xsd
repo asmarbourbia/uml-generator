@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Définition de l'élément racine -->
+    <xs:element name="sequenceDiagram">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="actors" type="actorsType"/>
+                <xs:element name="messages" type="messagesType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Définition des acteurs -->
+    <xs:complexType name="actorsType">
+        <xs:sequence>
+            <xs:element name="actor" type="actorType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="actorType">
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <!-- Définition des messages -->
+    <xs:complexType name="messagesType">
+        <xs:sequence>
+            <xs:element name="message" type="messageType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="messageType">
+        <xs:attribute name="sender" type="xs:string" use="required"/>
+        <xs:attribute name="receiver" type="xs:string" use="required"/>
+        <xs:attribute name="text" type="xs:string" use="required"/>
+    </xs:complexType>
+
+</xs:schema>

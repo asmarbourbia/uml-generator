@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml>
+  <class name="Personne" type="concrete">
+    <attributes>
+      <attribute name="age" type="int" visibility="-" isStatic="false" isFinal="false" initialization="0"/>
+    </attributes>
+    <methods>
+      <method name="getName" returnType="String" visibility="-" isStatic="false" isAbstract="false" isDefault="false">
+        <params>int x, String y</params>
+      </method>
+    </methods>
+    <relations>
+      <relation name="personnerel" type="association" from="Personne" to="Personne" isBidirectional="false"/>
+    </relations>
+  </class>
+</uml>

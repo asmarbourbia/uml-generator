@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UML Generator</title>
+    <link rel="stylesheet" href="css/styles1.css">
+</head>
+<body>
+<header class="app-header">
+    <div class="header-container">
+        <a href="uml_home.html" class="text-bold text-large">UML Generator</a>
+        <nav class="app-nav">
+            <ul>
+                <li><button onclick="goToHome()" class="hover:text-gray-300 btn-link">Accueil</button></li>
+                <li><button onclick="goToClassDiagram()" class="hover:text-gray-300 btn-link">Diagramme de classe</button></li>
+                <li><button onclick="goToSequenceDiagram()" class="hover:text-gray-300 btn-link">Diagramme de séquence</button></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Script pour gérer les redirections -->
+<script>
+    function goToHome() {
+        window.location.href = "uml_home.html";
+    }
+
+    function goToClassDiagram() {
+        window.location.href = "http://localhost:8084/";
+    }
+
+    function goToSequenceDiagram() {
+        window.location.href = "http://localhost:8085/sequence_diagram.html";
+    }
+</script>
+
+<!-- Ajout d'un style CSS pour rendre les boutons similaires aux liens -->
+<style>
+    .btn-link {
+        background: none;
+        border: none;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+        text-decoration: underline;
+        padding: 0;
+    }
+
+    .btn-link:hover {
+        color: gray;
+    }
+</style>
+
+
+<div class="main-container margin-top-lg">
+    <h1 class="app-title">Bienvenue dans UML Generator</h1>
+    <p class="text-center">Choisissez un type de diagramme pour commencer:</p>
+
+    <!-- Boutons avec gestion JavaScript -->
+    <button onclick="goToClassDiagram()" class="app-btn btn-blue">CRÉER Diagramme de classe</button>
+    <button onclick="goToSequenceDiagram()" class="app-btn btn-green">CRÉER Diagramme de séquence</button>
+</div>
+
+<!-- Script pour les redirections -->
+<script>
+    function goToClassDiagram() {
+        window.location.href = "http://localhost:8084/";
+    }
+
+    function goToSequenceDiagram() {
+        window.location.href = "http://localhost:8085/sequence_diagram.html";
+    }
+</script>
+
+</body>
+</html>

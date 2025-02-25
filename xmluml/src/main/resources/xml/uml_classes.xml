@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml>
+  <classes>
+    <class name="personne" type="concrete">
+    </class>
+  </classes>
+  <relationships>
+  </relationships>
+</uml>

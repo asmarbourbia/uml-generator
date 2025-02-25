@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Générateur de Diagramme de Séquence</title>
+    <script src="js/sequence_diagram.js" defer></script>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<h1>Génération de Diagramme de Séquence</h1>
+
+<!-- Saisie des acteurs -->
+<label>Nom des Acteurs :</label>
+<div id="actorsContainer">
+    <div class="actor-entry">
+        <input type="text" name="actorName" class="actor-input" placeholder="Ex : Utilisateur">
+    </div>
+</div>
+<button id="addActor">➕ Ajouter un acteur</button>
+
+<!-- Saisie des messages -->
+<label>Messages :</label>
+<div id="messagesContainer">
+    <div class="message-entry">
+        <input type="text" name="sender" placeholder="Expéditeur (Ex: Utilisateur)">
+        <input type="text" name="receiver" placeholder="Destinataire (Ex: Système)">
+        <input type="text" name="messageText" placeholder="Message (Ex: Connexion)">
+    </div>
+</div>
+<button id="addMessage">➕ Ajouter un message</button>
+
+<!-- Bouton pour générer le diagramme -->
+<button id="convertSequenceDiagram">Générer</button>
+
+<!-- Sélection du format et téléchargement -->
+<label for="exportFormat">Format d'exportation :</label>
+<select id="exportFormat">
+    <option value="svg">SVG</option>
+    <option value="png">PNG</option>
+</select>
+<button id="downloadDiagram" class="btn" style="display: none;">📥 Télécharger le diagramme</button>
+
+<!-- Conteneur du diagramme -->
+<div id="diagramContainer">
+    <h2>Diagramme de Séquence</h2>
+    <div id="svgDiagram"></div>
+</div>
+</body>
+</html>

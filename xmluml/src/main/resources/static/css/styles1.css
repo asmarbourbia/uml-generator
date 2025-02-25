@@ -1,0 +1,137 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Conteneur principal */
+.main-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.app-header {
+    background-color: #2d3748;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.app-header a:hover {
+    color: #d1d5db;
+}
+
+/* Navigation */
+.app-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /* Centre la navigation */
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 1rem; /* Espacement uniforme entre les éléments */
+}
+
+.app-nav ul li a {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.app-nav ul li a:hover {
+    background-color: #4a5568;
+}
+
+/* Titres */
+.app-title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Boutons */
+.app-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.app-btn:hover {
+    opacity: 0.9;
+}
+
+.btn-blue {
+    background-color: #3b82f6;
+}
+
+.btn-blue:hover {
+    background-color: #2563eb;
+}
+
+.btn-green {
+    background-color: #10b981;
+}
+
+.btn-green:hover {
+    background-color: #059669;
+}
+
+/* Espacement */
+.margin-top-lg {
+    margin-top: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-large {
+    font-size: 1.25rem;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .app-header .header-container {
+        flex-direction: column;
+        align-items: center; /* Centre le contenu */
+    }
+
+    .app-nav ul {
+        flex-direction: column;
+        gap: 10px; /* Espacement vertical entre les éléments */
+        margin-top: 1rem;
+    }
+}

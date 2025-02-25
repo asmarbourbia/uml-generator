@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence>
+  <actors>
+    <actor name="sqq"/>
+    <actor name="sqs"/>
+  </actors>
+  <messages>
+    <message sender="sq<s" receiver="ssssss">sssq</message>
+  </messages>
+</sequence>

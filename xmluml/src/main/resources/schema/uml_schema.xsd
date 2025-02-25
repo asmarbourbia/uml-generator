@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Définition de l'élément racine -->
+    <xs:element name="uml">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="packages" type="packagesType" minOccurs="0"/>
+                <xs:element name="classes" type="classesType"/>
+                <xs:element name="relationships" type="relationshipsType" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Définition des packages -->
+    <xs:complexType name="packagesType">
+        <xs:sequence>
+            <xs:element name="package" type="packageType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="packageType">
+        <xs:sequence>
+            <xs:element name="classes" type="classesType" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <!-- Définition des classes -->
+    <xs:complexType name="classesType">
+        <xs:sequence>
+            <xs:element name="class" type="classType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="classType">
+        <xs:sequence>
+            <xs:element name="attributes" type="attributesType" minOccurs="0"/>
+            <xs:element name="methods" type="methodsType" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="type" type="classTypeEnum" use="required"/>
+        <xs:attribute name="isInstantiable" type="xs:boolean" use="optional"/>
+        <xs:attribute name="package" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+    <!-- Définition des attributs -->
+    <xs:complexType name="attributesType">
+        <xs:sequence>
+            <xs:element name="attribute" type="attributeType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="attributeType">
+        <xs:attribute name="visibility" type="visibilityEnum" use="required"/>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="type" type="xs:string" use="required"/>
+        <xs:attribute name="multiplicity" type="xs:string" use="optional"/>
+        <xs:attribute name="initialization" type="xs:string" use="optional"/>
+        <xs:attribute name="isStatic" type="xs:boolean" use="optional"/>
+        <xs:attribute name="isFinal" type="xs:boolean" use="optional"/>
+    </xs:complexType>
+
+    <!-- Définition des méthodes -->
+    <xs:complexType name="methodsType">
+        <xs:sequence>
+            <xs:element name="method" type="methodType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="methodType">
+        <xs:sequence>
+            <xs:element name="parameters" type="parametersType" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="visibility" type="visibilityEnum" use="required"/>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="returnType" type="xs:string" use="required"/>
+        <xs:attribute name="isStatic" type="xs:boolean" use="optional"/>
+        <xs:attribute name="isAbstract" type="xs:boolean" use="optional"/>
+        <xs:attribute name="isDefault" type="xs:boolean" use="optional"/>
+    </xs:complexType>
+
+    <!-- Définition des paramètres -->
+    <xs:complexType name="parametersType">
+        <xs:sequence>
+            <xs:element name="parameter" type="parameterType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="parameterType">
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="type" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <!-- Définition des relations -->
+    <xs:complexType name="relationshipsType">
+        <xs:sequence>
+            <xs:element name="inheritance" type="relationshipType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="association" type="relationshipType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="composition" type="relationshipType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="aggregation" type="relationshipType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="dependency" type="relationshipType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="implementation" type="relationshipType" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="relationshipType">
+        <xs:attribute name="from" type="xs:string" use="required"/>
+        <xs:attribute name="to" type="xs:string" use="required"/>
+        <xs:attribute name="multiplicityFrom" type="xs:string" use="optional"/>
+        <xs:attribute name="multiplicityTo" type="xs:string" use="optional"/>
+        <xs:attribute name="isBidirectional" type="xs:boolean" use="optional"/>
+        <xs:attribute name="name" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+    <!-- Enums -->
+    <xs:simpleType name="visibilityEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="-"/>
+            <xs:enumeration value="~"/>
+            <xs:enumeration value="+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="classTypeEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="concrete"/>
+            <xs:enumeration value="abstract"/>
+            <xs:enumeration value="interface"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
