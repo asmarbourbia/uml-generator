@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequenceDiagram>
+  <actors>
+    <actor name="fd" type="actor"/>
+    <actor name="vv" type="actor"/>
+  </actors>
+  <messages>
+    <message sender="vv" receiver="fd" text="56612545" type="sync"/>
+  </messages>
+</sequenceDiagram>

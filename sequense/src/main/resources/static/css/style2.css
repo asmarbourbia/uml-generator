@@ -1,0 +1,128 @@
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-top: 20px;
+}
+
+/* Champ de saisie */
+input, select {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Conteneurs */
+#actorsContainer, #messagesContainer, #fragmentsContainer {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-entry, .actor-entry, .fragment-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Boutons */
+button {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.btn-danger {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background: #a71d2a;
+}
+
+/* Conteneur pour le diagramme */
+#diagramContainer {
+    margin-top: 30px;
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#svgDiagram {
+    border: 1px solid #ddd;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 500px;
+    overflow: auto;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#svgDiagram svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Formulaire */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+/* Format d'exportation */
+#exportFormat {
+    width: auto;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* Centrer le bouton de téléchargement */
+#downloadDiagram {
+    margin-top: 15px;
+}

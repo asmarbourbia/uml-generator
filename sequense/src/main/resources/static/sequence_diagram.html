@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Générateur de Diagramme de Séquence</title>
+    <script src="js/sequence_diagram.js" defer></script>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<h1>Génération de Diagramme de Séquence</h1>
+
+<!-- Saisie des acteurs -->
+<label>Nom des Acteurs :</label>
+<div id="actorsContainer">
+    <div class="actor-entry">
+        <input type="text" name="actorName" class="actor-input" placeholder="Ex : Utilisateur" required>
+        <select name="actorType" class="actor-type">
+            <option value="actor">Acteur</option>
+            <option value="object">Objet</option>
+            <!--<option value="package">Paquetage</option>-->
+        </select>
+        <button type="button" class="btn-danger" onclick="this.parentElement.remove()">🗑 Supprimer</button>
+    </div>
+</div>
+<button id="addActor"> Ajouter un acteur</button>
+
+<!-- Saisie des messages -->
+<label>Messages :</label>
+<div id="messagesContainer">
+    <div class="message-entry">
+        <input type="text" name="sender" placeholder="Expéditeur (Ex : Utilisateur)" required>
+        <input type="text" name="receiver" placeholder="Destinataire (Ex : Système)" required>
+        <input type="text" name="messageText" placeholder="Message (Ex : Connexion)" required>
+        <select name="messageType" class="message-type">
+            <option value="sync">Synchrone</option>
+            <option value="async">Asynchrone</option>
+            <option value="return">Retour</option>
+            <option value="create">Création</option>
+            <option value="destroy">Destruction</option>
+        </select>
+        <button type="button" class="btn-danger" onclick="this.parentElement.remove()">🗑 Supprimer</button>
+    </div>
+</div>
+<button id="addMessage"> Ajouter un message</button>
+
+<!-- Saisie des fragments combinés -->
+<label>Fragments Combinés :</label>
+<div id="fragmentsContainer">
+    <div class="fragment-entry">
+        <select name="fragmentType">
+            <option value="loop">Boucle</option>
+            <option value="alt">Alternative</option>
+        </select>
+        <input type="text" name="fragmentCondition" placeholder="Condition">
+        <button type="button" class="btn-danger" onclick="this.parentElement.remove()">🗑 Supprimer</button>
+    </div>
+</div>
+<button id="addFragment"> Ajouter un fragment</button>
+
+<!-- Bouton pour générer le diagramme -->
+<button id="convertSequenceDiagram">Générer</button>
+
+<!-- Sélection du format et téléchargement -->
+<label for="exportFormat">Format d'exportation :</label>
+<select id="exportFormat">
+    <option value="svg">SVG</option>
+    <option value="png">PNG</option>
+</select>
+<button id="downloadDiagram" class="btn" style="display: none;"> Télécharger le diagramme</button>
+<!-- Bouton pour télécharger le fichier XML -->
+<button id="downloadXML" class="btn">Télécharger le fichier XML</button>
+
+
+<!-- Conteneur du diagramme -->
+<div id="diagramContainer">
+    <h2>Diagramme de Séquence</h2>
+    <div id="svgDiagram"></div>
+</div>
+</body>
+</html>
